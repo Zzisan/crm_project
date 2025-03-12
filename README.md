@@ -3,22 +3,8 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Test Your Pages:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Navigate to http://localhost:3000/ to see if the index page lists  your customers.
+* Visit http://localhost:3000/customers/alphabetized to check the alphabetized view.
+* Visit http://localhost:3000/customers/missing_email for the missing email view.
