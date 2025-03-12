@@ -1,0 +1,11 @@
+<div class="customer-card">
+  <% if customer.image.attached? %>
+    <%= image_tag url_for(customer.image), alt: "#{customer.full_name}'s image", class: "customer-image" %>
+  <% else %>
+    <%= image_tag "placeholder.png", alt: "No image available", class: "customer-image" %>
+  <% end %>
+  <h2><%= customer.full_name %></h2>
+  <p>Phone: <%= customer.phone_number %></p>
+  <p>Email: <%= customer.email_address.presence || "Not provided" %></p>
+  <p>Notes: <%= customer.notes %></p>
+</div>
